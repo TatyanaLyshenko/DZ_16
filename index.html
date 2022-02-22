@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> 
+    <title>Верстака макета с использованием scss</title>
+</head>
+<body>
+    <header class="header header--transparent">
+        <div class="container header__line">
+            <a class="header__link" href="#">
+                <img class="header__logo" src="./assets/images/logo.png" alt="logo">
+            </a>
+            <button class="header__btn btn"><img class="header__menu" src="./assets/images/menu.png" alt="icon_menu"></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="first-screen">
+            <div class="container first-screen__line">
+                <h1 class="first-screen__title">РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</h1>
+                <span class="first-screen__text">стадионы, газопроводы, мосты, дамбы</span>
+            </div>
+        </section>
+
+        <section class="block">
+            <div class="container block__list">
+                <div class="block__item">
+                    <p class="block__number">26</p> 
+                    <p class="block__year">лет</p>
+                    <p class="block__text">на рынке</p>
+                </div>
+                <div class="block__item">
+                    <p class="block__number">26</p> 
+                    <p class="block__year">лет</p>
+                    <p class="block__text">на рынке</p>
+                </div>
+                <div class="block__item">
+                    <p class="block__number">26</p> 
+                    <p class="block__year">лет</p>
+                    <p class="block__text">на рынке</p>
+                </div>
+                <div class="block__item">
+                    <p class="block__number">26</p> 
+                    <p class="block__year">лет</p>
+                    <p class="block__text">на рынке</p>
+                </div>
+            </div>
+        </section>
+           
+        <section class="project">
+            <div class="container">
+                <h2 class="project__title">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h2>
+                <div class="project__list">
+                    <article class="project__article">
+                        <img class="article__img" src="./assets/images/project.png" alt="project">
+                        <hr class="article__line">
+                        <h3 class="article__title">Газпром Арена</h3>
+                        <p class="article__text">
+                            Мы сделали самую красивую арену в Европе.
+                            Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
+                        </p>
+                    </article>
+                    <article class="project__article">
+                        <img class="article__img" src="./assets/images/project.png" alt="project">
+                        <hr class="article__line">
+                        <h3 class="article__title">Газпром Арена</h3>
+                        <p class="article__text">
+                            Мы сделали самую красивую арену в Европе.
+                            Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
+                        </p>
+                    </article>
+                    <article class="project__article">
+                        <img class="article__img" src="./assets/images/project.png" alt="project">
+                        <hr class="article__line">
+                        <h3 class="article__title">Газпром Арена</h3>
+                        <p class="article__text">
+                            Мы сделали самую красивую арену в Европе.
+                            Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному еву.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="request">
+            <div class="container">
+                <div class="request__block">
+                    <div class="request__content">
+                        <h2 class="request__title">САМЫЕ УМНЫЕ ПРОЕКТЫ</h2>
+                        <span class="request__text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</span>
+                    </div>
+                    <div class="request__button-box">
+                        <button class="request__btn btn">
+                            <img class="request__icon" src="./assets/images/icon_mail.png" alt="icon">
+                            ВАШ ЗАПРОС
+                        </button>
+                    </div>      
+                </div>
+                         
+                
+            </div>
+        </section>
+
+        <section class="direction">
+            <div class="container">
+                <div class="direction__line">
+                    <h2 class="direction__title">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h2>
+                    <div class="direction__list">
+                        <div class="direction__item">
+                            <img class="direction__item-img" src="./assets/images/build.png" alt="build">
+                            <h3 class="direction__item-title">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h3>
+                        </div>
+                        <div class="direction__item">
+                            <img class="direction__item-img" src="./assets/images/build.png" alt="build">
+                            <h3 class="direction__item-title">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h3>
+                        </div>
+                        <div class="direction__item">
+                            <img class="direction__item-img" src="./assets/images/build.png" alt="build">
+                            <h3 class="direction__item-title">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h3>
+                        </div>
+                        <div class="direction__item">
+                            <img class="direction__item-img" src="./assets/images/build.png" alt="build">
+                            <h3 class="direction__item-title">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h3>
+                        </div>
+                        <div class="direction__item">
+                            <img class="direction__item-img" src="./assets/images/build.png" alt="build">
+                            <h3 class="direction__item-title">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h3>
+                        </div>
+                        <div class="direction__item">
+                            <img class="direction__item-img" src="./assets/images/build.png" alt="build">
+                            <h3 class="direction__item-title">СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
